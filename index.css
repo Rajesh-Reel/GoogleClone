@@ -1,0 +1,15 @@
+#container {
+    padding-top: 150px;
+    width: 580px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#logo {
+    width: 300px;
+    height: 100px;
+    background: url("https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png");
+    background-size: 100%;
+    text-indent: -9999px;
+    margin: 0 auto;
+}
