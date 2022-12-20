@@ -21,3 +21,24 @@
 #navbar ul li {
     display: inline;
 }
+
+/* Footer section */
+
+footer {
+    background: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+footer nav ul li {
+    display: inline;
+}
+
+footer nav ul {
+    float: left;
+}
+  
+footer nav ul.rightlinks {
+    float: right;
+}
