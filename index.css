@@ -1,3 +1,25 @@
+/* Upper nav bar */
+
+#navbar {
+    width: 99%;
+}
+
+#navbar ul li {
+    display: inline;
+}
+
+
+body nav ul li {
+    float: left;
+    
+}
+
+body nav ul.account {
+    float: right;
+}
+
+/* Main */
+
 #container {
     padding-top: 150px;
     width: 580px;
@@ -13,14 +35,7 @@
     margin: 0 auto;
 }
 
-#navbar {
-    text-align: right;
-    width: 99%;
-}
 
-#navbar ul li {
-    display: inline;
-}
 
 /* Footer section */
 
@@ -31,6 +46,12 @@ footer {
     width: 100vw;
 }
 
+.location {
+    background: #f2f2f2;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+}
+
 footer nav ul li {
     display: inline;
 }
@@ -38,7 +59,7 @@ footer nav ul li {
 footer nav ul {
     float: left;
 }
-  
+
 footer nav ul.rightlinks {
     float: right;
 }
