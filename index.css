@@ -47,6 +47,12 @@ input[type="text"] {
     border-radius: 24px;
     font-size: 16px;
 }
+
+.onemic {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
   
 input[type="text"]:hover {
     border-color: #aaa;
