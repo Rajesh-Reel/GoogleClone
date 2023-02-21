@@ -59,7 +59,7 @@ input[type="text"]:hover {
 }
 
 input[type="submit"] {
-    background: #f8f9fa;
+    /* background: #f8f9fa;
     color: gray;
     border: solid 1px #f8f9fa;
     padding: 5px;
@@ -68,7 +68,22 @@ input[type="submit"] {
     font-family: Arial, sans-serif;
     font-weight: bold;
     margin: 0 5px;
+    border-radius: 4px; */
+
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
     border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
 
 input[type="submit"]:hover {
