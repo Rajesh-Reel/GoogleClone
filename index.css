@@ -90,6 +90,17 @@ input[type="submit"]:hover {
     cursor: pointer;
 }
 
+.searchicon {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+.cameraicon {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
 /* Footer section */
 
 footer {
