@@ -25,7 +25,7 @@ body nav ul.account {
 
 #container {
     padding-top: 250px;
-    width: 580px;
+    /* width: 580px; */
     margin: 0 auto;
     text-align: center;
 }
