@@ -52,6 +52,7 @@ input[type="text"] {
     width: 476px;
     height: 25px;
     /* font-size: 16px; */
+    border: none;
 }
 
 .onemic {
