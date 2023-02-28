@@ -1,3 +1,5 @@
+/* Root */
+
 * {
     margin: 0;
     padding: 0;
@@ -25,7 +27,6 @@ body nav ul.account {
 
 #container {
     padding-top: 250px;
-    /* width: 580px; */
     margin: 0 auto;
     text-align: center;
 }
@@ -39,13 +40,17 @@ body nav ul.account {
 }
 
 .searchcontainer {
-    /* background-color: grey; */
-    /* margin: 25px 0 18px; */
     margin: 25px auto;
     padding: 7px;
     border: solid 1px #dfe1e5;
     border-radius: 24px;
     width: 566px;
+}
+
+.searchicon {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
 }
 
 input[type="text"] {
@@ -55,28 +60,11 @@ input[type="text"] {
     border: none;
 }
 
-.onemic {
-    height: 24px;
-    width: 24px;
-    vertical-align: middle;
-}
-  
 input[type="text"]:hover {
     border-color: #aaa;
 }
 
 input[type="submit"] {
-    /* background: #f8f9fa;
-    color: gray;
-    border: solid 1px #f8f9fa;
-    padding: 5px;
-    height: 36px;
-    font-size: 11px;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    margin: 0 5px;
-    border-radius: 4px; */
-
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
@@ -97,7 +85,7 @@ input[type="submit"]:hover {
     cursor: pointer;
 }
 
-.searchicon {
+.onemic {
     height: 24px;
     width: 24px;
     vertical-align: middle;
@@ -124,7 +112,6 @@ footer nav ul li a:visited {
 }
 
 footer nav {
-    /* padding: 20px; doesn't seem to be in the middle */
     padding: 15px 20px 35px;
 }
 
@@ -145,4 +132,3 @@ footer nav ul {
 footer nav ul.rightlinks {
     float: right;
 }
-
