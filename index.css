@@ -8,11 +8,20 @@
 /* Upper nav bar */
 
 #navbar {
-    width: 99%;
+    width: auto;
+    padding: 15px 20px 35px;
+    gap: 5px;
 }
 
 #navbar ul li {
     display: inline;
+}
+
+nav#navbar ul li a:link,
+nav#navbar ul li a:visited {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
 }
 
 body nav ul li {
@@ -110,6 +119,14 @@ footer nav ul li a:link,
 footer nav ul li a:visited {
     text-decoration: none;
     padding: 10px;
+    color: #70757a;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
+.rightlinks:hover {
+    text-decoration: underline;
 }
 
 footer nav {
@@ -120,10 +137,12 @@ footer nav {
     background: #f2f2f2;
     padding: 15px 30px;
     border-bottom: 1px solid #dadce0;
+    color: #70757a;
 }
 
 footer nav ul li {
     display: inline;
+    text-decoration: none;
 }
 
 footer nav ul {
