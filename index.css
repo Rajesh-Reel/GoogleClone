@@ -32,6 +32,11 @@ body nav ul.account {
     float: right;
 }
 
+body nav ul li:hover,
+body nav ul.account :hover {
+    text-decoration: underline;
+}
+
 /* Main */
 
 #container {
